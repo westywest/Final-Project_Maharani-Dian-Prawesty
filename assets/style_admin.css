@@ -1,0 +1,59 @@
+@import url('https://fonts.cdnfonts.com/css/roboto');
+body{
+    font-family: 'Roboto Medium', sans-serif;
+    background: #F6F6F6;
+}
+.sidebar{
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+    background: #D6E6F2;
+}
+a{
+    text-decoration: none;
+}
+.img-author{
+    width: 120px;
+    height: 140px;
+    object-fit: cover;
+    object-position: 50% 50%;
+    display: block;  
+    margin-left: auto;  
+    margin-right: auto;  
+}
+.img-thorlates{
+    width: 120px;
+    height: 140px;
+    object-fit: cover;
+    object-position: 50% 50%;
+    margin : 10px;
+
+}
+.img-news{
+    width: 400px;
+    height: 240px;
+    object-fit: cover;
+    object-position: 50% 50%;
+    display: block;  
+    margin-left: auto;  
+    margin-right: auto;  
+}
+.img-newslates{
+    width: 200px;
+    height: 140px;
+    object-fit: cover;
+    object-position: 50% 50%;
+    margin : 10px;
+}
+
+.img-dsh{
+    width: 160px;
+    height: 180px;
+    object-fit: cover;
+    object-position: 50% 50%;
+}

@@ -1,0 +1,106 @@
+@import url('https://fonts.cdnfonts.com/css/roboto');
+body{
+    font-family: 'Roboto Medium', sans-serif;
+    background-color: #e9e9dd;
+}
+.navbar{
+    background: #1f3072;
+}
+.carousel{
+    margin-top: 30px;
+}
+.card-body{
+    border-radius: 30px;
+}
+.btn-tag{
+    background: #1f3072;
+    border: 0px;
+    border-radius: 50px;
+    padding: 10px;
+    width: 180px;
+    color: #e9e9dd;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.c-item{
+    height: 480px;
+}
+.c-img{
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.3); 
+}
+.btn-search{
+    background: #1f3072;
+    border: 0px;
+    padding: 10px;
+    border-radius: 20px;
+    width: 80px;
+    height: 40px;
+    margin-left: 120px;
+}
+.btn-search:hover{
+    background-color: #6EBF8B;
+}
+.btn{
+    background: #1f3072;
+    border: 0px;
+    border-radius: 15px;
+    padding: 10px;
+}
+.n-img{
+    width: 20rem;
+    height: 150px;
+    object-fit: cover;
+    object-position: 50% 50%;
+}
+.det-img{
+    width: 500px;
+    height: 350px;
+    object-fit: cover;
+    object-position: 50% 50%;
+    margin-top: 20px;
+}
+.to-detail{
+    text-decoration:none;
+    color: black;
+}
+.to-detail:hover{
+    color: #1f3072;
+}
+footer{
+    background-color: #1f3072;
+}
+.center{
+    text-align: center;
+}
+.btn:hover{
+    background-color: #6EBF8B;
+}
+.author-profile{
+    object-fit: cover;
+    object-position: 50% 50%;
+    border-radius: 50%;
+    text-align: right;
+}
+.name-author{
+    text-align: left;
+}
+.judul{
+    text-decoration:none;
+    color: black;
+    font-weight: bold;
+}
+.titleContent{
+    color: #1f3072;
+    text-align: center;
+    font-family: 'Roboto Black', sans-serif;
+}
+.content{
+    text-align: justify;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+.share{
+    text-align: right;
+}
